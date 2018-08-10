@@ -4,6 +4,8 @@ For the Q3 from yesterday (find intersection between two LL), I confused the con
 
 Pay more attention to the hidden assumptions in the question next time maybe.
 ### Q1
+[link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
 Given a linked list, remove the n-th node from the end of list and return its head.
 
 Example:
@@ -30,6 +32,7 @@ Run several examples to make sure your end conditions will not result in an endl
 ## Classic Problems with LL
 
 ### Q2
+[leetcode link](https://leetcode.com/problems/reverse-linked-list/description/)
 
 Reverse a singly linked list.
 
@@ -38,7 +41,12 @@ Example:
 Input: 1->2->3->4->5->NULL
 Output: 5->4->3->2->1->NULL
 ```
+
+_@Troy_这个可以inplace完成的, 参考[link](https://algorithms.tutorialhorizon.com/reverse-a-linked-list/)
+
 ### Q3
+
+[leetcode link](https://leetcode.com/problems/remove-linked-list-elements/description/)
 
 Remove all elements from a linked list of integers that have value val.
 
@@ -48,7 +56,10 @@ Input:  1->2->6->3->4->5->6, val = 6
 Output: 1->2->3->4->5
 ```
 
+
 ### Q4
+
+[leetcode link](https://leetcode.com/problems/odd-even-linked-list/description/)
 
 Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
 
@@ -59,6 +70,7 @@ Example 1:
 Input: 1->2->3->4->5->NULL
 Output: 1->3->5->2->4->NULL
 ```
+
 Example 2:
 ```
 Input: 2->1->3->5->6->4->7->NULL
@@ -72,6 +84,7 @@ Note:
 
 ### Q5
 
+[leetcode list](https://leetcode.com/problems/palindrome-linked-list/)
 Given a singly linked list, determine if it is a palindrome.
 
 Example 1:

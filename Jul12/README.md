@@ -22,13 +22,17 @@ It is a safe choice to move the slow pointer one step at a time while moving the
 ```What about other choices? Do they work? Would they be more efficient?```
 
 ### Q1
+[link](https://leetcode.com/problems/linked-list-cycle/)
+
 Given a linked list, determine if it has a cycle in it.
 
 ### Q2
-
+[link](https://leetcode.com/problems/linked-list-cycle-ii/)
 Given a linked list, return the node where the cycle begins. If there is no cycle, return `null`.
 
 ### Q3
+
+[link to leetcode](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
