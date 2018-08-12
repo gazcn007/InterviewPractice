@@ -8,9 +8,27 @@ Carl's solutions to questions on Jun 26 will be within folder `Jun26/Carl/Q1.jav
 
 ## Checkboxes
 
-- [ ] Jun 26:
-	- [ ] Q1
-	- [ ] Q2
-	- [ ] Q3
-	- [ ] Q4
-	- [ ] Q5 
+[good site](https://www.zybuluo.com/Yano/note/253217#palindrome-linked-list)
+
+- [x] LinkedList:
+	- [x] Jul12
+	- [x] Jul13
+	- [x] Jul14
+- [-] Array
+	- [-] Jul15
+- [ ] Math
+- [ ] HashTable
+- [ ] String
+- [ ] Binary Search
+- [ ] Divide and Conquer
+- [ ] Dynamic Programming
+- [ ] Backtracing
+- [ ] Stack
+- [ ] Sorting
+- [ ] Bit Manipulation
+- [ ] Tree
+- [ ] DFS
+- [ ] BFS
+- [ ] Graph
+- [ ] Trie
+- [ ] Design 
