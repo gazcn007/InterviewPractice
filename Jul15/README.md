@@ -12,6 +12,8 @@ In this card, we will introduce array and string. After finishing this card, you
 
 ### Q1
 
+[link](https://leetcode.com/problems/find-pivot-index/description/)
+
 Given an array of integers `nums`, write a method that returns the "pivot" index of this array.
 
 We define the pivot index as the index where the sum of the numbers to the left of the index is equal to the sum of the numbers to the right of the index.
@@ -38,6 +40,7 @@ There is no index that satisfies the conditions in the problem statement.
 
 
 ### Q2
+[link](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)
 
 In a given integer array `nums`, there is always exactly one largest element.
 
@@ -61,6 +64,8 @@ Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 ```
 
 ### Q3
+[link](https://leetcode.com/problems/plus-one/)
+
 Given a non-empty array of digits representing a non-negative integer, plus one to the integer.
 
 The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
