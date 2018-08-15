@@ -10,6 +10,8 @@ In some languages, the multidimensional array is actually implemented internally
 
 ### Q1
 
+[link](https://leetcode.com/problems/diagonal-traverse/description/)
+
 Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image.
 ```
 Example:
@@ -23,6 +25,8 @@ Output:  [1,2,4,7,5,3,6,8,9]
 ```
 
 ### Q2
+[link](https://leetcode.com/problems/spiral-matrix/description/)
+
 Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
 Example 1:
@@ -47,9 +51,11 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 ```
 
 ### Q3
+[link](https://leetcode.com/problems/pascals-triangle/)
+
 Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 
-![Alt Text](Q3.gif)
+![img](./Troy/Q3.gif)
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it.
 Example:
