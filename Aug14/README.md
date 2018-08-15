@@ -320,6 +320,7 @@ If you have figured out the O(n) solution, try coding another solution of which 
 
 ## Q12 [Leetcode 561] Array Partition I
 
+This one is same as Q5.
 [link](https://leetcode.com/problems/array-partition-i/description/)
 
 ## Q13 [Leetcode 53] Maximum Subarray
