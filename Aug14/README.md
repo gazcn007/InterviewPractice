@@ -296,7 +296,7 @@ Input: [1,1,0,1,1,1]
 Output: 3
 Explanation: The first two digits or the last three digits are consecutive 1s.
     The maximum number of consecutive 1s is 3.
-    ```
+```
 Note:
 
 * The input array will only contain 0 and 1.
@@ -326,11 +326,3 @@ If you have figured out the O(n) solution, try coding another solution of which 
 
 This one is same as Q5.
 [link](https://leetcode.com/problems/array-partition-i/description/)
-
-## Q13 [Leetcode 53] Maximum Subarray
-
-[link](https://leetcode.com/problems/maximum-subarray/description/)
-
-## Q14 [Leetcode 126] Today's challenge - Word Ladder
-
-[link](https://leetcode.com/problems/word-ladder-ii/description/)
