@@ -77,7 +77,7 @@ Note:
 * You must do this in-place without making a copy of the array.
 * Minimize the total number of operations.
 
-## LeetCode Queue & Stack [1/1] (Aug 15)
+## LeetCode Queue & Stack [1/2] (Aug 15, Aug 16)
 We may access a random element by index in Array. However, we might want to restrict the processing order in some cases.
 
 ## First-in-first-out Data Structure: Queue
