@@ -1,4 +1,4 @@
-## Q1 [LeetCode 119] [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)
+### Q1 [LeetCode 119] [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)
 
 Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.
 
@@ -16,7 +16,7 @@ Output: [1,3,3,1]
 Follow up:
 * Could you optimize your algorithm to use only O(k) extra space?
 
-## Q2 [LeetCode 151] [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
+### Q2 [LeetCode 151] [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
 Given an input string, reverse the string word by word.
 
 Example:  
@@ -32,7 +32,7 @@ Note:
 
 Follow up: For C programmers, try to solve it in-place in O(1) space.
 
-## Q3 [LeetCode 557] [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
+### Q3 [LeetCode 557] [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
 Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 
 Example 1:
@@ -42,7 +42,7 @@ Output: "s'teL ekat edoCteeL tsetnoc"
 ```
 Note: In the string, each word is separated by single space and there will not be any extra space in the string.
 
-## Q4 [LeetCode 26] [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+### Q4 [LeetCode 26] [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
 
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
@@ -64,7 +64,7 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 ```
 
-## Q5 [LeetCode 283] [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+### Q5 [LeetCode 283] [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 
 Given an array `nums`, write a function to move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
 
@@ -189,3 +189,69 @@ After running your function, the 2D grid should be:
   1  -1   2  -1
   0  -1   3   4
 ```
+### Q7 [LeetCode 200] [Number of Islands](https://leetcode.com/problems/number-of-islands)
+
+Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+Example 1:
+```
+Input:
+11110
+11010
+11000
+00000
+
+Output: 1
+```
+Example 2:
+```
+Input:
+11000
+11000
+00100
+00011
+
+Output: 3
+```
+### Q8 [LeetCode 752] [Open the Lock](https://leetcode.com/problems/open-the-lock)
+
+You have a lock in front of you with 4 circular wheels. Each wheel has 10 slots: '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'. The wheels can rotate freely and wrap around: for example we can turn '9' to be '0', or '0' to be '9'. Each move consists of turning one wheel one slot.
+
+The lock initially starts at '0000', a string representing the state of the 4 wheels.
+
+You are given a list of deadends dead ends, meaning if the lock displays any of these codes, the wheels of the lock will stop turning and you will be unable to open it.
+
+Given a target representing the value of the wheels that will unlock the lock, return the minimum total number of turns required to open the lock, or -1 if it is impossible.
+
+Example 1:
+```
+Input: deadends = ["0201","0101","0102","1212","2002"], target = "0202"
+Output: 6
+Explanation:
+A sequence of valid moves would be "0000" -> "1000" -> "1100" -> "1200" -> "1201" -> "1202" -> "0202".
+Note that a sequence like "0000" -> "0001" -> "0002" -> "0102" -> "0202" would be invalid,
+because the wheels of the lock become stuck after the display becomes the dead end "0102".
+```
+Example 2:
+```
+Input: deadends = ["8888"], target = "0009"
+Output: 1
+Explanation:
+We can turn the last wheel in reverse to move from "0000" -> "0009".
+```
+Example 3:
+```
+Input: deadends = ["8887","8889","8878","8898","8788","8988","7888","9888"], target = "8888"
+Output: -1
+Explanation:
+We can't reach the target without getting stuck.
+```
+Example 4:
+```
+Input: deadends = ["0000"], target = "8888"
+Output: -1
+```
+Note:
+* The length of deadends will be in the range [1, 500].
+* target will not be in the list deadends.
+* Every string in deadends and the string target will be a string of 4 digits from the 10,000 possibilities '0000' to '9999'.
