@@ -103,7 +103,9 @@ public class Main {
 }
 ```
 
-### Q1
+## Q1 [Leetcode 67] Add Binary
+[link](https://leetcode.com/problems/add-binary/description/)
+
 Given two binary strings, return their sum (also a binary string).
 
 The input strings are both non-empty and contains only characters 1 or 0.
@@ -119,7 +121,11 @@ Input: a = "1010", b = "1011"
 Output: "10101"
 ```
 
-### Q2
+## Q2 [Leetcode 28] Implement strStr()
+
+
+[link](https://leetcode.com/problems/implement-strstr/)
+
 Implement strStr().
 
 Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
@@ -129,7 +135,7 @@ Example 1:
 Input: haystack = "hello", needle = "ll"
 Output: 2
 ```
-Example 2:
+Example 2 
 ```
 Input: haystack = "aaaaa", needle = "bba"
 Output: -1
@@ -140,7 +146,9 @@ What should we return when `needle` is an empty string? This is a great question
 
 For the purpose of this problem, we will return 0 when `needle` is an empty string. This is consistent to C's strstr() and Java's indexOf().
 
-### Q3
+## Q3 [Leetcode 14]
+
+[link](https://leetcode.com/problems/longest-common-prefix/description/)
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
@@ -175,7 +183,9 @@ The idea is to swap the first element with the end, advance to the next element 
 
 We can use two pointers at the same time to do the iteration: one starts from the first element and another starts from the last element. Continue swapping the elements until the two pointers meet each other.
 
-### Q4
+## Q4 leetcode 344
+[link](https://leetcode.com/problems/reverse-string/)
+
 Write a function that takes a string as input and returns the string reversed.
 
 Example 1:
@@ -189,7 +199,9 @@ Input: "A man, a plan, a canal: Panama"
 Output: "amanaP :lanac a ,nalp a ,nam A"
 ```
 
-### Q5
+## Q5 [Leetcode 561]
+
+[link](https://leetcode.com/problems/array-partition-i/)
 Given an array of `2n` integers, your task is to group these integers into `n` pairs of integer, say (a1, b1), (a2, b2), ..., (an, bn) which makes sum of min(ai, bi) for all i from 1 to n as large as possible.
 
 Example 1:
@@ -203,7 +215,10 @@ Note:
 1. `n` is a positive integer, which is in the range of [1, 10000].
 2. All the integers in the array will be in the range of [-10000, 10000].
 
-### Q6
+## Q6 [Leetcode 1] two sum
+
+[link](https://leetcode.com/problems/two-sum/description/)
+
 Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
 
 The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
@@ -243,7 +258,10 @@ Determine the movement strategy for both pointers.
 ```
 Similar to the previous scenario, you might sometimes need to sort the array before using the two-pointer technique. And you might need a greedy thought to determine your movement strategy.
 
-### Q7
+## Q7 [Leetcode 27] Remove Element
+
+[link](https://leetcode.com/problems/remove-element/description/)
+
 Given an array nums and a value val, remove all instances of that value in-place and return the new length.
 
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
@@ -287,7 +305,9 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
-### Q8
+## Q8 [Leetcode 485] Max Consecutive Ones
+[link](https://leetcode.com/problems/max-consecutive-ones/)
+
 Given a binary array, find the maximum number of consecutive 1s in this array.
 
 Example 1:
@@ -302,7 +322,9 @@ Note:
 * The input array will only contain 0 and 1.
 * The length of input array is a positive integer and will not exceed 10,000
 
-### Q9
+## Q9 [Leetcode 209] Minimum size subarray sum
+
+[link](https://leetcode.com/problems/minimum-size-subarray-sum/)
 Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s. If there isn't one, return 0 instead.
 
 Example:
