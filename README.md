@@ -1,4 +1,5 @@
-# For Interview Practice
+# Let's make interview practice fun and interesting!
+
 
 ## Folder structure
 Please create your folder following the convention -- "Date/Name/(questionNumber).*"
@@ -18,7 +19,7 @@ Carl's solutions to questions on Jun 26 will be within folder `Jun26/Carl/Q1.jav
 	- [-] Jul15
 - [ ] Math
 - [ ] HashTable
-- [ ] String
+- [-] String
 - [ ] Binary Search
 - [ ] Divide and Conquer
 - [ ] Dynamic Programming
@@ -32,3 +33,5 @@ Carl's solutions to questions on Jun 26 will be within folder `Jun26/Carl/Q1.jav
 - [ ] Graph
 - [ ] Trie
 - [ ] Design 
+
+# Good luck have fun!
