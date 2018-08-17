@@ -1,4 +1,4 @@
-## Q1 Pascal's Triangle II
+## Q1 [LeetCode 119] [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/description/)
 
 Given a non-negative index k where k ≤ 33, return the kth index row of the Pascal's triangle.
 
@@ -16,7 +16,7 @@ Output: [1,3,3,1]
 Follow up:
 * Could you optimize your algorithm to use only O(k) extra space?
 
-## Q2 Reverse Words in a String
+## Q2 [LeetCode 151] [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
 Given an input string, reverse the string word by word.
 
 Example:  
@@ -32,7 +32,7 @@ Note:
 
 Follow up: For C programmers, try to solve it in-place in O(1) space.
 
-## Q3 Reverse Words in a String III
+## Q3 [LeetCode 557] [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
 Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 
 Example 1:
@@ -42,7 +42,7 @@ Output: "s'teL ekat edoCteeL tsetnoc"
 ```
 Note: In the string, each word is separated by single space and there will not be any extra space in the string.
 
-## Q4 Remove Duplicates from Sorted Array
+## Q4 [LeetCode 26] [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
 
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
@@ -64,7 +64,7 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 ```
 
-## Q5 Move Zeroes
+## Q5 [LeetCode 283] [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
 
 Given an array `nums`, write a function to move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
 
@@ -164,7 +164,7 @@ There are two cases you don't need the hash set used:
 * You are absolutely sure there is no cycle, for example, in tree traversal;
 * You do want to add the node to the queue multiple times.
 
-### Q6 Walls and Gates
+### Q6 [LeetCode 286] [Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/)
 
 You are given a m x n 2D grid initialized with these three possible values.
 
