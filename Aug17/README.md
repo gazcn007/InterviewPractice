@@ -150,3 +150,74 @@ Visually, the graph looks like the following:
          / \
          \_/
 ```
+
+### Q6 [LeetCode 494] [Target Sum](https://leetcode.com/problems/target-sum)
+
+You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
+
+Find out how many ways to assign symbols to make sum of integers equal to target S.
+
+Example 1:
+```
+Input: nums is [1, 1, 1, 1, 1], S is 3.
+Output: 5
+Explanation:
+
+-1+1+1+1+1 = 3
++1-1+1+1+1 = 3
++1+1-1+1+1 = 3
++1+1+1-1+1 = 3
++1+1+1+1-1 = 3
+```
+
+There are 5 ways to assign symbols to make the sum of nums be target 3.
+Note:
+* The length of the given array is positive and will not exceed 20.
+* The sum of elements in the given array will not exceed 1000.
+* Your output answer is guaranteed to be fitted in a 32-bit integer.
+
+## DFS - Template II
+
+The advantage of the recursion solution is that it is easier to implement. However, there is a huge disadvantage: if the depth of recursion is too high, you will suffer from stack overflow. In that case, you might want to use BFS instead or implement DFS using an explicit stack.
+
+```java
+/*
+ * Return true if there is a path from cur to target.
+ */
+boolean DFS(int root, int target) {
+    Set<Node> visited;
+    Stack<Node> s;
+    add root to s;
+    while (s is not empty) {
+        Node cur = the top element in s;
+        return true if cur is target;
+        for (Node next : the neighbors of cur) {
+            if (next is not in visited) {
+                add next to s;
+                add next to visited;
+            }
+        }
+        remove cur from s;
+    }
+    return false;
+}
+```
+
+The logic is exactly the same with the recursion solution. But we use while loop and stack to simulate the system call stack during recursion. Running through several examples manually will definitely help you understand it better.
+
+### Q7 [LeetCode 94] [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
+
+Given a binary tree, return the inorder traversal of its nodes' values.
+
+Example:
+```
+Input: [1,null,2,3]
+   1
+    \
+     2
+    /
+   3
+
+Output: [1,3,2]
+```
+Follow up: Recursive solution is trivial, could you do it iteratively?
