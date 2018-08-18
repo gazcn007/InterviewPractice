@@ -1,4 +1,4 @@
-## Leetcode Array and String
+## Leetcode Array and String (1/3) [Jul15, Aug13, Aug15]
 
 Array is one of the fundamental blocks in data structure. Since a string is just formed by an array of characters, they are both similar. Most interview questions fall into this category.
 
