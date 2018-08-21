@@ -19,37 +19,18 @@ class Solution {
     }
 }
 
-// Failed attempt to a solution without extra space usage ...
+// Solution without extra space, key idea is to use
+// XOR operation for numbers in array nums. Duplicate
+// numbers will be canceled and only the single number
+// remains in the end.
+class Solution {
 
-// class Solution {
-//     public int singleNumber(int[] nums) {
-//         int len = nums.length;
-//         int result = 0;
-//         for(int i = 0; i < len; i++) {
-//             int cur = nums[i];
-//             if (cur == Integer.MAX_VALUE || hashFunction(len ,cur) == i) continue;
-//
-//             while(true && cur != 0) {
-//                 int hash = hashFunction(len, cur);
-//                 int tmp = nums[hash];
-//                 if (tmp == cur) {
-//                     nums[hash] = Integer.MAX_VALUE;
-//                     break;
-//                 } else {
-//                     nums[hash] = cur;
-//                 }
-//                 cur = tmp;
-//             }
-//         }
-//
-//         for (int i = 0; i < len; i++) {
-//             if (nums[i] != Integer.MAX_VALUE && hashFunction(len, nums[i]) == i) result = nums[i];
-//         }
-//         return result;
-//     }
-//
-//     public int hashFunction(int len, int num) {
-//         int p = 179432233;
-//         return Math.floorMod(num, len);
-//     }
-// }
+    public int singleNumber(int[] nums) {
+        int result = 0;
+        for (int i = 0; i < nums.length; i++)
+        {
+            result ^= nums[i];
+        }
+        return result;
+    }
+}
