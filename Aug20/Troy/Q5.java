@@ -19,10 +19,10 @@ class Solution {
     }
 }
 
-// Solution without extra space, key idea is to use
-// XOR operation for numbers in array nums. Duplicate
-// numbers will be canceled and only the single number
-// remains in the end.
+// Solution without extra space: key idea is to apply
+// XOR operation on the array nums. Duplicate
+// numbers will be cancelled and only the single number
+// remains as the result.
 class Solution {
 
     public int singleNumber(int[] nums) {
