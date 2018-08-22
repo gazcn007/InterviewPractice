@@ -94,7 +94,7 @@ Note:
 * 0 <= rooms[i].length <= 1000
 * The number of keys in all rooms combined is at most 3000.
 
-## LeetCode Hash Table [1/1] (Aug 20)
+## LeetCode Hash Table [1/2] (Aug 20, Aug 21)
 
 Hash Table is a data structure which organizes data using hash functions in order to support quick insertion and search.
 
