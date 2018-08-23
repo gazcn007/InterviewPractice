@@ -114,3 +114,87 @@ The two tuples are:
 1. (0, 0, 0, 1) -> A[0] + B[0] + C[0] + D[1] = 1 + (-2) + (-1) + 2 = 0
 2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0
 ```
+
+### Q6 [Leetcode 347] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)
+
+Given a non-empty array of integers, return the k most frequent elements.
+
+Example 1:
+```
+Input: nums = [1,1,1,2,2,3], k = 2
+Output: [1,2]
+```
+Example 2:
+```
+Input: nums = [1], k = 1
+Output: [1]
+```
+Note:
+* You may assume k is always valid, 1 ≤ k ≤ number of unique elements.
+* Your algorithm's time complexity must be better than O(n log n), where n is the array's size.
+
+### Q7 [Leetcode 288] [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation)
+
+An abbreviation of a word follows the form <first letter><number><last letter>. Below are some examples of word abbreviations:
+```
+a) it                      --> it    (no abbreviation)
+
+     1
+     ↓
+b) d|o|g                   --> d1g
+
+              1    1  1
+     1---5----0----5--8
+     ↓   ↓    ↓    ↓  ↓    
+c) i|nternationalizatio|n  --> i18n
+
+              1
+     1---5----0
+     ↓   ↓    ↓
+d) l|ocalizatio|n          --> l10n
+```
+Assume you have a dictionary and given a word, find whether its abbreviation is unique in the dictionary. A word's abbreviation is unique if no other word from the dictionary has the same abbreviation.
+
+Example:
+```
+Given dictionary = [ "deer", "door", "cake", "card" ]
+
+isUnique("dear") -> false
+isUnique("cart") -> true
+isUnique("cane") -> false
+isUnique("make") -> true
+```
+
+### Q8 [Leetcode 380] [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1)
+
+Design a data structure that supports all following operations in average O(1) time.
+
+1. `insert(val)`: Inserts an item val to the set if not already present.
+2. `remove(val)`: Removes an item val from the set if present.
+3. `getRandom`: Returns a random element from current set of elements. Each element must have the same probability of being returned.
+Example:
+```
+// Init an empty set.
+RandomizedSet randomSet = new RandomizedSet();
+
+// Inserts 1 to the set. Returns true as 1 was inserted successfully.
+randomSet.insert(1);
+
+// Returns false as 2 does not exist in the set.
+randomSet.remove(2);
+
+// Inserts 2 to the set, returns true. Set now contains [1,2].
+randomSet.insert(2);
+
+// getRandom should return either 1 or 2 randomly.
+randomSet.getRandom();
+
+// Removes 1 from the set, returns true. Set now contains [2].
+randomSet.remove(1);
+
+// 2 was already in the set, so return false.
+randomSet.insert(2);
+
+// Since 2 is the only number in the set, getRandom always return 2.
+randomSet.getRandom();
+```
