@@ -15,21 +15,22 @@ Carl's solutions to questions on Jun 26 will be within folder `Jun26/Carl/Q1.jav
 	- [x] Jul12
 	- [x] Jul13
 	- [x] Jul14
-- [-] Array
-	- [-] Jul15
+- [x] Array
+	- [x] Matrix
+	- [x] 1D Array
 - [ ] Math
-- [ ] HashTable
-- [-] String
+- [x] HashTable
+- [x] String
 - [ ] Binary Search
 - [ ] Divide and Conquer
 - [ ] Dynamic Programming
 - [ ] Backtracing
-- [ ] Stack
+- [x] Stack
 - [ ] Sorting
 - [ ] Bit Manipulation
-- [ ] Tree
-- [ ] DFS
-- [ ] BFS
+- [x] Tree
+- [x] DFS
+- [x] BFS
 - [ ] Graph
 - [ ] Trie
 - [ ] Design 
