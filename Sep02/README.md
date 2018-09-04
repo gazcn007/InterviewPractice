@@ -1,4 +1,4 @@
-## LeetCode Binary Search [2/2] (Sep 01, Sep 02)
+## LeetCode Binary Search [2/3] (Sep 01, Sep 02, Sep 03)
 
 ### Q1 [Leetcode 153] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
 
