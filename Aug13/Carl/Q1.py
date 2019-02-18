@@ -5,8 +5,8 @@ class Solution(object):
         :rtype: List[int]
         """
         lenY = len(matrix)
-        if(lenY==0):
-        	return []
+        if(lenY == 0):
+            return []
         lenX = len(matrix[0])
         currentX = 0
         currentY = 0

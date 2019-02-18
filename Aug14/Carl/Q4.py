@@ -9,5 +9,6 @@ class Solution:
             toRet = s[i]+toRet
         return toRet
 
+
 S = Solution()
 print(S.reverseString('1'))

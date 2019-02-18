@@ -17,7 +17,8 @@ class Solution(object):
         # carry = 1 , 1 , 1
         for i in range(0, len(longStr)):
             longStrChar = longStr[len(longStr)-1-i]
-            shortStrChar = shortStr[len(shortStr)-1-i] if (i < len(shortStr)) else '0'
+            shortStrChar = shortStr[len(
+                shortStr)-1-i] if (i < len(shortStr)) else '0'
             if longStrChar == shortStrChar == '1':
                 if carry == 1:
                     rStr = '1' + rStr
@@ -39,5 +40,6 @@ class Solution(object):
             rStr = '1'+rStr
         return rStr
 
+
 S = Solution()
-print(S.addBinary('101','11'))
+print(S.addBinary('101', '11'))

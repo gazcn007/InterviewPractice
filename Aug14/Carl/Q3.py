@@ -13,5 +13,6 @@ class Solution(object):
                     return shortestStr[0:i]
         return shortestStr
 
+
 S = Solution()
-print(S.longestCommonPrefix(['13','']))
+print(S.longestCommonPrefix(['13', '']))

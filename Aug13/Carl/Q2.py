@@ -20,14 +20,14 @@ class Solution(object):
                 flag = True
             # down
             if flag:
-                curX = lenX - border - 1 
+                curX = lenX - border - 1
                 flag = False
             for y in range(border + 1, lenY - border):
                 arrayToRet.append(matrix[y][curX])
                 flag = True
             # <-
             if flag:
-                curY = lenY - border -1
+                curY = lenY - border - 1
                 flag = False
                 for xrev in range(lenX - border - 2, border-1, -1):
                     arrayToRet.append(matrix[curY][xrev])
@@ -49,6 +49,7 @@ class Solution(object):
                 return arrayToRet
                 break
 
+
 s = Solution()
 m1 = [
     [1, 2, 3],
@@ -67,13 +68,13 @@ m4 = [
 ]
 m5 = [
     [1, 2, 3],
-    [5, 6, 4 ],
+    [5, 6, 4],
     [9, 10, 5],
-    [2,4,3]
+    [2, 4, 3]
 ]
-m6= [[6,9,7]]
-m7= [[6],[9],[7]]
-m8 = [[2,5,8],[4,0,-1]]
+m6 = [[6, 9, 7]]
+m7 = [[6], [9], [7]]
+m8 = [[2, 5, 8], [4, 0, -1]]
 print(s.spiralOrder(m1))
 print(s.spiralOrder(m2))
 print(s.spiralOrder(m4))
@@ -81,4 +82,3 @@ print(s.spiralOrder(m5))
 print(s.spiralOrder(m6))
 print(s.spiralOrder(m7))
 print(s.spiralOrder(m8))
-

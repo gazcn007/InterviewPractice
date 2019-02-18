@@ -5,6 +5,7 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+
 class Codec:
 
     def serialize(self, root):
@@ -32,13 +33,12 @@ class Codec:
         sb = sb + "}"
         return sb
 
-
     def deserialize(self, data):
         """Decodes your encoded data to tree.
         :type data: str
         :rtype: TreeNode
         """
-        if data[0] != "{" or data [-1] != "}":
+        if data[0] != "{" or data[-1] != "}":
             return None
         elif data == "{}":
             return None
@@ -48,18 +48,18 @@ class Codec:
         root = TreeNode(int(str_list[0]))
         queue.append(root)
         index = 0
-        for i in range (1, len(str_list)):
-            if(str_list[i]!="#"):
+        for i in range(1, len(str_list)):
+            if str_list[i] != "#":
                 node = TreeNode(int(str_list[i]))
-                if i%2 == 1:
+                if i % 2 == 1:
                     queue[index].left = node
                 else:
                     queue[index].right = node
                 queue.append(node)
-            if i%2 == 0:
+            if i % 2 == 0:
                 index += 1
         return root
-        
+
 
 root = TreeNode(1)
 root.left = TreeNode(2)

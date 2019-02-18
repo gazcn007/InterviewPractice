@@ -4,8 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        leftSum = 0 
-        rightSum = sum(nums);
+        leftSum = 0
+        rightSum = sum(nums)
         for i, value in enumerate(nums):
             rightSum -= value
             if(leftSum == rightSum):
@@ -15,4 +15,4 @@ class Solution(object):
 
 
 s = Solution()
-print(s.pivotIndex([-1,-1,0,1,1,-1]))
+print(s.pivotIndex([-1, -1, 0, 1, 1, -1]))
