@@ -38,3 +38,6 @@ class Solution(object):
         if carry == 1:
             rStr = '1'+rStr
         return rStr
+
+S = Solution()
+print(S.addBinary('101','11'))
